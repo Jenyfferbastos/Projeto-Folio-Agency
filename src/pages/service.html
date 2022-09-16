@@ -54,6 +54,43 @@
       <img src="../assets/images/phone.svg" alt="Imagem de Telefone">
     </section>
     <footer>
+      <div class="principal-footer">
+        <img src="../assets/images/SpeachBubble-V2.svg" class="img-footer">
+        <p class="text-line-1">👋 Say hello</p>
+        <h3 class="text-line-2">A design team building a curated marketplace for UI designers.</h3>
+        <h2 class="text-line-3">Let’s talk about your next project</h2>
+        <!-- Button Contact Us Error 400 -->
+        <a><button class="btn-link-error">Contact Us</button></a>
+        </div>
+        <div class="secundaria-footer">
+            <img src="../assets/images/light-mode-dark.svg" class="img-logo">
+            <p class="text-1">Agency is a full-service agency, busy designing and building.</p>
+            <div class="dropdown">
+        <nav class="container">
+            <div class="hover">
+                <button class="click">Home</button>
+            </div>
+                <div class="list">
+                    <a href="../pages/work.html"><button class="links">Work</button></a>
+                    <a href="../pages/whoweare.html"><button class="links">About</button></a>
+                    <a href="../pages/service.html"><button class="links">Services</button></a>
+                    <a href="../pages/cta.html"><button class="links">Jobs</button></a>
+                </div>
+            <script>
+                let click = document.querySelector('.click');
+                let list = document.querySelector('.list');
+                click.addEventListener("click",()=>{
+                    list.classList.toggle('newlist');
+                });
+            </script> 
+            <div class="icons">
+                <button class="icon-link"><img src="../assets/images/icon-facebook-2.svg" alt=""></button>
+                <button class="icon-link"><img src="../assets/images/icon-youtube-2.svg" alt=""></button>
+                <button class="icon-link"><img src="../assets/images/icon-instagram-2.svg" alt=""></button>
+              </div>
+              <p class="text-2">© 2020, UI8 LLC.</p>
+        </div>
+        </div>
     </footer>
     <body>
     <html>
