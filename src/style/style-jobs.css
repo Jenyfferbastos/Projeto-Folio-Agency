@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #EDE5F081;
+  font-family: 'SF Pro Display', sans-serif;
+  color: #000000;
+  background-image: url("../assets/images/img-line-jobs.svg");
+  background-repeat: no-repeat;
+  background-position-x: 162px;
+  background-position-y: -40px;
+  background-size: 61%;
+  align-items: center;
+}
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 52px 32px 0px 32px;
+}
+.cabecalho__menu {
+  border:none; 
+  background-color: #EDE5F081 ;
+}
+.principal{
+  margin: 47px 40px 48px 40px;
+}
+.text-line{
+  display: flex;
+  font-size: 14px;
+  color: #5468E7;
+}
+.text-number{
+  margin-right: 24px;
+  color: #5468E7;
+}
+.text-1{
+ padding-right: 50px;
+ color: #606060;
+}
+main.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 0px 32px;
+  
+}
+li.card1, li.card3, li.card4{
+  list-style: none;
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 24px;
+  margin-bottom: 15px;
+  padding: 30px 60px 40px 32px;
+  width: 70%;
+}
+
+li.card2{
+  position: relative;
+  border-radius: 24px 0px 0px 24px;
+  margin-bottom: 15px;
+  right: 0;
+  padding: 30px 60px 40px 32px;
+  background: #232340;
+  color: #FFFFFF;
+}
+.img-card2{
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+.btn-error {
+  border:none; 
+  background-color:#FFFFFF;
+}
+.btn-error-white {
+  border:none; 
+  background-color:#232340;
+}
+ .title-card{
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+.text-card{
+  font-size: 16px;
+  color: #606060;
+}
+

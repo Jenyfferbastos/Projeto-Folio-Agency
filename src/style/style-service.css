@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SF Pro Display', sans-serif;
+  color: #232340;
+  background-color: #EDE5F081;
+  background-image: url("../assets/images/line-background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-image: linear-gradient(to right,  rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.5043) 100%);
+}
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 52px 32px 0px 32px;
+}
+.cabecalho__menu {
+  border:none; 
+  background-color:#EDE5F081;
+} 
+.principal{
+  margin: 38px 32px 80px 33px;
+}
+.text-line{
+  display: flex;
+  font-size: 14px;
+  color: #5468E7;
+}
+.title{
+  font-size: 40px;
+  padding-right: 116px;
+}
+.text-number{
+  margin-right: 24px;
+  color: #5468E7;
+}
+
+.btn-link{
+  border: none;
+  background-color: #EDE5F081;
+}
+main.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 0px 32px;
+}
+main.cards section.card1{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  background: #FFFFFF;
+  border-radius: 32px;
+  margin-top: 56px;
+  margin-bottom: 24px;
+  padding: 49px 78px 49px 48px;
+}
+main.cards section.card2{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  background: #5468E7;
+  border-radius: 32px;
+  margin-bottom: 24px;
+  padding: 49px 70px 46px 48px;
+}
+main.cards section.card3{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  background: #FFFFFF;
+  border-radius: 32px;
+  margin-bottom: 24px;
+  padding: 49px 63px 49px 48px;
+}
+main.cards section.card4{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  background: #FFFFFF;
+  border-radius: 32px;
+  margin-bottom: 40px;
+  padding: 49px 35px 49px 48px;
+}
+.content-service{
+  margin-top: 40px;
+  margin-left: 32;
+  margin-right: 116;
+}
+.text-content-service{
+  display: flex;
+  font-size: 14px;
+}
+.number-line{
+  margin-right: 24px;
+  color: #8B8B8B;
+}
+.text-line{
+ font-size: 14px;
+ color: #232340;
+}
+.title-line{
+  font-size: 24px;
+  padding: 0px 145px 0px 0px;
+  color: #232340;
+}
+.number-line-2{
+  font-size: 140px;
+  color: #5468E7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.text-line-2{
+  font-size: 18px;
+}
